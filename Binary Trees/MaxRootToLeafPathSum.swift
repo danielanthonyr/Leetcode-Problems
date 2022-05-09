@@ -2,7 +2,7 @@
 //  MaxRootToLeafPathSum.swift
 //  Leetcode-Problems
 //
-//  Created by ryan on 2022-05-09.
+//  Created by daniel on 2022-05-09.
 //
 
 import Foundation
