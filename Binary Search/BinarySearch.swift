@@ -13,8 +13,8 @@ func search(_ nums: [Int], _ target: Int) -> Int {
     var left = 0
     var right = nums.count - 1
     
-    while left < right {
-        let midpoint = (right) - left / 2
+    while left <= right {
+        let midpoint = (left + right) / 2
         
         if nums[midpoint] == target {
             return midpoint
