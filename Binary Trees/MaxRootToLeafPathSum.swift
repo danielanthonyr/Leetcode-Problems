@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Node {
+fileprivate class Node {
     var val: Int
     var left: Node?
     var right: Node?
